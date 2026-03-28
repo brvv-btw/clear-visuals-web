@@ -1,6 +1,8 @@
 const javaScript = document.getElementById("javaScriptRunning");
 const cssRunning = document.getElementById("cssRunning");
 
+// This area prints the functioning of the JavaScript and CSS (pointless lol but is cool)
+
 javaScript.onload = function(){
     console.log(`JavaScript has connected...`)
 }
