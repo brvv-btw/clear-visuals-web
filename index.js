@@ -13,6 +13,9 @@ javaScript.onerror = function(){
 if(document.styleSheets.length > 0){
     console.log(`CSS has connected...`)
 }
-else{
+else if(document.styleSheets.length <= 0){
     console.log(`CSS has failed to connect...`)
+}
+else{
+    console.log(`Failed to scan CSS...`)
 }
