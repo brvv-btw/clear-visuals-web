@@ -131,7 +131,7 @@ body{
     color: white;
     text-align: center;
     font-size: 2em;
-    box-shadow: 0 0 4px rgb(255, 255, 255);
+    box-shadow: 0 0 3px rgb(255, 255, 255);
 }
 
 #clearText {
@@ -139,12 +139,45 @@ body{
     transform: translateX();
 }
 
+#discordLogo, #clearLogo {
+  vertical-align: middle;
+}
+
 #discordLogo {
     height: 1.25em;
-    transform: translateY(-100px) translateX(250px);
+    transform: translateY(-106px) translateX(250px);
 }
 
 #clearLogo {
-    width: 1.25em;
-    transform: translateY(-100px) translateX(-250px);
+    height: 1.6em;
+    transform: translateY(-106px) translateX(-250px);
+}
+
+#clearLogo:hover {
+  cursor: pointer;
+}
+
+#mainTextContainer {
+  font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    width: 25%;
+    height: 440px;
+    transform: translateX(128%) translateY(65%);
+    padding: 5px 40px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+}
+
+#ogWtvP {
+  font-family: "Poppins", sans-serif;
+  font-size: 110%;
+  font-weight: 600;
+}
+
+#ogWtvText {
+  font-size: 70%;
 }

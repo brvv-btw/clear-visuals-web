@@ -19,3 +19,8 @@ else if(document.styleSheets.length <= 0){
 else{
     console.log(`Failed to scan CSS...`)
 }
+
+const logoRedirect = document.getElementById("clearLogo").onclick;
+logoRedirect.onclick = function(){
+    window.location.href = "index.html";
+}
